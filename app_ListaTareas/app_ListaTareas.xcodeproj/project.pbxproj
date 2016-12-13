@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3864BC1E007DF700D244E0 /* PrincipalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3864BB1E007DF700D244E0 /* PrincipalTableViewController.swift */; };
+		3F3864BE1E0083D000D244E0 /* MiCeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3864BD1E0083D000D244E0 /* MiCeldaTableViewCell.swift */; };
+		3F3864C01E0094C500D244E0 /* AnadirTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3864BF1E0094C500D244E0 /* AnadirTableViewController.swift */; };
 		3F4B5F871DEE22A000B396D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B5F861DEE22A000B396D6 /* AppDelegate.swift */; };
 		3F4B5F891DEE22A000B396D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B5F881DEE22A000B396D6 /* ViewController.swift */; };
 		3F4B5F8C1DEE22A000B396D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B5F8A1DEE22A000B396D6 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3864BB1E007DF700D244E0 /* PrincipalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalTableViewController.swift; sourceTree = "<group>"; };
+		3F3864BD1E0083D000D244E0 /* MiCeldaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiCeldaTableViewCell.swift; sourceTree = "<group>"; };
+		3F3864BF1E0094C500D244E0 /* AnadirTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnadirTableViewController.swift; sourceTree = "<group>"; };
 		3F4B5F831DEE22A000B396D6 /* app_ListaTareas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_ListaTareas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4B5F861DEE22A000B396D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F4B5F881DEE22A000B396D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				3F4B5F8D1DEE22A000B396D6 /* Assets.xcassets */,
 				3F4B5F8F1DEE22A000B396D6 /* LaunchScreen.storyboard */,
 				3F4B5F921DEE22A000B396D6 /* Info.plist */,
+				3F3864BB1E007DF700D244E0 /* PrincipalTableViewController.swift */,
+				3F3864BD1E0083D000D244E0 /* MiCeldaTableViewCell.swift */,
+				3F3864BF1E0094C500D244E0 /* AnadirTableViewController.swift */,
 			);
 			path = app_ListaTareas;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3864C01E0094C500D244E0 /* AnadirTableViewController.swift in Sources */,
+				3F3864BC1E007DF700D244E0 /* PrincipalTableViewController.swift in Sources */,
 				3F4B5F891DEE22A000B396D6 /* ViewController.swift in Sources */,
 				3F4B5F871DEE22A000B396D6 /* AppDelegate.swift in Sources */,
+				3F3864BE1E0083D000D244E0 /* MiCeldaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				3F4B5F971DEE22A000B396D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
